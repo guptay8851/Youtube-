@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    height: 1800px;
+    width: 100%;
+
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   border-bottom: solid rgb(245, 240, 240) 1px;
+}
+.leftnav ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+
+}
+.leftnav ul li{
+    list-style: none;
+    margin-left: 20px;
+
+}
+ .leftnav ul li a #youtube  {
+    color: red;
+    margin-right: 3px;
+    font-size: 30px;
+}
+.leftnav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: 200;
+}
+.middilnav ul li{
+    list-style: none;
+}
+/* .middilnav ul li{
+    text-decoration: none;
+} */
+.rightnav ul li{
+    list-style: none;
+}
+.rightnav ul li a{
+    text-decoration: none;
+}
+.middilnav ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.middilnav ul li input{
+    border:none;
+    height: 25px;
+    width: 450px;
+}
+.middilnav ul li .microphone{
+    font-size: 25px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    width: 37px;
+    height: 36px;
+    border-radius: 50%;
+    background-color:rgb(221, 210, 210) ;
+    text-align: center;
+   
+    
+    
+} 
+.navbar ul li input{
+    width: 500px;
+    font-size: 20px;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.searchbox{
+    border: solid rgb(218, 211, 211) 1px;
+    width: 551px;
+     height: 35px;
+     margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.navbar ul li  .searchbutton {
+    width: 51px;
+    height: 35px;
+    background-color: rgb(221, 210, 210);
+    font-size: 20px;
+   border: none;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
+}
+.rightnav ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.rightnav ul li{
+    font-size: 30px;
+    margin-right: 35px;
+}
+
+.rightnav ul li a{
+     color: black;
+}
+.rightnav ul li img{
+    border-radius: 50%;
+    margin-top: 5px;
+
+}
+.minicontainer{
+    display: flex;
+    flex-direction: row;
+}
+.leftbox{
+    height: 1800px;
+    width: 240px;
+    border-right: solid rgb(245, 240, 240) 1px; 
+     display: flex;
+    flex-direction: column;
+}
+
+.leftbox .list1{
+    border-bottom: solid rgb(245, 240, 240) 1px;
+
+}
+.leftbox .list1 ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.leftbox .list1 ul li{
+    margin-top: 20px;
+    list-style: none;
+    
+}
+.leftbox .list1 ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.leftbox .list2 ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+
+}
+.leftbox .list2 ul li{
+    margin-top: 20px;
+    list-style: none;
+}
+.leftbox .list2 ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.leftbox .list2 ul li a i{
+    margin-right: 20px;
+}
+.leftbox .list1 ul li a i{
+    margin-right: 20px;
+}
+ .firstrow{
+    height: 265px;
+    width: 100%;
+    margin-top: 35px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    height: 265px;
+    width: 330px;
+    margin-left: 30px; 
+
+}
+.firstrow .card iframe{
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    
+}
